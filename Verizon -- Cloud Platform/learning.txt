@@ -1,0 +1,67 @@
+TASK ONE:
+    Some key indicators for Verizon's top rated cloud computing engineers (CCEs):
+        Coding (pre-requisite skill)
+        Agility (learn as you work skill)
+        Networking and communication (learn as you work skill)
+            Internal
+            External
+    Meeting Notes:
+        Sasha:
+            New Priority Project
+            Our new enterprise VPN solution backed by Squid proxy servers
+            Support both Verizon internal employees and external customers for their secured connection to the Verizon Cloud Platform
+
+        Project requirements:
+            VPN service is 
+                Always up and running
+                Resilient to faulty components and can automatically recover from partial infrastructure failure with minimal human intervention
+            Application can scale up and down in reaction to the amount of traffic (reduce cost)
+
+
+        Tasks:
+            Work closely with the product team
+            Getting acquainted with the new product as to be able to develop effective test cases and scenarios.
+            Responsible for
+                Creating and maintaining the test environment, frameworks, and tools
+                Evaluating potential third-party testing and automation tools fit for integration
+                The processing, tracking, and escalating of test results.
+            Testing includes necessary manual interference and automation.
+                Testing criteria are dependent upon the stage of development
+                Test results will be submitted to the development team for review and turn into change requests and bug reports after each sprint.
+    Quiz:
+        A VPN has many characteristics to enhance the security of cloud platforms, including but not limited to: mitigating public network vulknerabilities, providing access control, and identity protection.
+
+
+TASK TWO
+    PART ONE - Sprint Meeting
+    PART TWO - Getting Set Up
+    PART THREE - What Are The Three Cloud-Native Traits In Question?
+        Redundancy
+            Kill an instance (VM or container) of the app while it's running and || check if the app continues to work and provide service ||.
+                This is to test that the system is stable enough for parts of its underlying resources to fail and not affect up time.
+        Resiliency
+            Kill an instance (VM or container) of the app while it's running and || check if the instance restarts/recovers with no human intervention, and continues to provide service ||. 
+                This is to test the ability of the system to recover from failures and continue to function with minimal interaction.
+        Least-Privilege
+            Check that the app is not using admin or root level access.
+                This is to ensure that the application is secure enough so that should there be a security breach it will likely be limited due to the restricted access and permission of the user running the external facing application.
+    PART FOUR - Now Let's Run The Python Test Program
+        PART FOUR.ONE - Redundancy Test
+            Quiz
+                For the application service to be up and running, it requires at least one pod to be running.
+                    If the last pod in the application is killed, the application will experience downtime between the pod terminating and when it is brought back up.
+        PART FOUR.THREE - Resilience Test
+            Quiz   
+                The total number of running pods will remain the same because the application is resilient enough to re-deploy a downed pod quickly and automatically.
+        PART FOUR.FIVE - Least-Privilege Test
+            Quiz
+                Root is the super admin user with full permission.
+                    Instead of the root user, there should be a dedicated service user (e.g., squid) that has just enough privilege to run the squid proxy VPN application and nothing else.
+    PART FIVE - Wrapping Up
+
+
+TASK THREE
+    Tip to stand out
+        It's not about what skills do you know.
+        People who have the aptitude, who have the curiosity to learn, who are very much interested.
+            I.e., passionate people
