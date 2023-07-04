@@ -1,4 +1,4 @@
-TASK ONE:
+TASK ONE : Program Scenario
     Some key indicators for Verizon's top rated cloud computing engineers (CCEs):
         Coding (pre-requisite skill)
         Agility (learn as you work skill)
@@ -32,7 +32,7 @@ TASK ONE:
         A VPN has many characteristics to enhance the security of cloud platforms, including but not limited to: mitigating public network vulknerabilities, providing access control, and identity protection.
 
 
-TASK TWO
+TASK TWO : Understanding the Characteristics of Cloud-Native Applications
     PART ONE - Sprint Meeting
     PART TWO - Getting Set Up
     PART THREE - What Are The Three Cloud-Native Traits In Question?
@@ -60,8 +60,55 @@ TASK TWO
     PART FIVE - Wrapping Up
 
 
-TASK THREE
+TASK THREE : Cloud-Based Application Security
     Tip to stand out
         It's not about what skills do you know.
         People who have the aptitude, who have the curiosity to learn, who are very much interested.
             I.e., passionate people
+        If you can talk about passion in your application and be ready to talk about your passion in interviews.
+            Demonstrate passion about specific technical interests, talk about some tough problems you're working on, approaches.
+        Don't expect to know everything
+        Explain your thought process.
+    Evaluating the application's security measures is critical in ensuring that the cloud application is reinforced against malicious attacks once it goes live.
+        Since the application involves authentication and user credentials it is important that we fully vet its potential vulnerabilities and preemptively implement security measures.
+    Your research target
+        Security is crucial for cloud-based applications because cloud computing involves storing, processing, and transmitting data over the internet, which creates additional security risks.
+            Cloud-based applications can be accessed from anywhere in the world, making it easier for cyber criminals to launch attacks.
+            Key terms:
+                Network Security: involves protecting an organization's computer networks and network-connected devices from unauthorized access, cyber attacks, and data breaches.
+                Application Security: involves protecting an organization's applications from cyber attacks and data breaches.
+                Data Security: involves protecting an organization's data from unauthorized access, theft, or corruption.
+    How is research valuable to a CCE?
+        Some ways that research can be valuable for a CCE:
+            Keeping up with emerging technologies
+            Improving cloud architecture and design
+            Enhancing cloud security
+            Evaluating cloud service providers
+            Advancing the field of cloud computing
+    What does good research look like?
+        Rules of thumb for performing quality research:
+            Being able to find relevant information targeting your research, knowing what to look for and where to look for it is sometimes 80% of the work.
+            Being able to cross-check facts and not base your solution on a single source (such as the top Google result), even if it is exactly what you're looking for sometimes.
+            Being able to sift through the masive amount of information (or the lack of it), compile information relevant to your research topic and present it in a clear and succinct format.
+    Quiz:
+        Effective approach to apply firewall rules:
+            Configure the firewall rules to block certain traffic to approach the application
+            Configure the firewall rules to only allow certain validated traffic to approach the application
+        Effective approach to apply traffic encryption:
+            Cloud encryption is a data security process in which plaintext data is encoded into unreadable ciphertext to help keep it secure in or between cloud environments.
+            There are two states of traffic encryption: data in transit and data at rest. Data in both states need to be protected at all times.
+            Data in transit is encrypted by requiring SSL/TLS protocols for network traffic.
+            Encrypting stored data protects virtual devices or files against unauthorized access either from external network penetration, rogue internal users, or accidental releases.
+        Effective approach to avoid DDoS attack?
+            Configure load balancer.
+            Use the domain name system (DNS) to direct inbound traffic through a scrubbing center prior to delivery to the server.
+            Implement segmentation of internal to external networks and of any network containing critical systems.
+
+
+TASK FOUR : Recap
+    Put this in the resume and highlight what you gain from this program.
+    It's important to show your thought process, how you approach problems, and how you think with curiosity or outside the box.
+    Passionate people 
+    Quiz:
+        Three layers of security:
+            Data, Application, Network
